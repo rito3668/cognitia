@@ -1,0 +1,125 @@
+body {
+    background-image: url("https://img.freepik.com/premium-vector/network-mesh-wire-digital-technology-background_1072300-78.jpg?w=1060");
+    /* background-color: #d2f6dc; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    color: #333;
+    
+}
+
+/* Navbar styling */
+nav {
+    background-color: #35495e;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Container and sections */
+.container {
+    display: flex;
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.left-side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-side {
+    padding: 1em;
+}
+
+.right-side h1 {
+    font-size: 2em;
+    color: #35495e;
+}
+
+.right-side p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Links section */
+.links-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #eef2f5;
+}
+
+.link-box {
+    text-align: center;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+}
+
+.link-box h2 {
+    font-size: 1.5em;
+    color: #35495e;
+}
+
+.link-box a {
+    text-decoration: none;
+    color: #007acc;
+    font-size: 1.1em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #35495e;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.footer-content div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-content h3 {
+    font-size: 1.2em;
+    color: #f4f6f9;
+    margin-bottom: 0.5em;
+}
+
+.footer-content p, .footer-content a {
+    font-size: 0.9em;
+    color: #c4c8d1;
+    text-decoration: none;
+}
